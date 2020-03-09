@@ -1,0 +1,299 @@
+/* ------------------------- general style ------------------------- */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+textarea {
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.load {
+    text-align: center;
+}
+
+.load button {
+    width: 70%;
+    background-color: teal;
+    font-size: 2rem;
+    color: white;
+}
+
+/* ------------------------- index page style ------------------------- */
+
+
+/* navbar */
+.nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.nav__wrapper-logo {
+    width: 10%;
+}
+
+.nav__wrapper-list {
+    width: 60%;
+    text-align: center;
+
+}
+
+.nav__wrapper-list li {
+    display: inline-block;
+    list-style: none;
+    padding: 1rem;
+}
+
+.nav__wrapper-list a {
+    text-decoration: none;
+    color: #6F7C85;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.nav__wrapper-list a:hover {
+    text-decoration: underline;
+}
+
+.signIn {
+    width: 20%;
+}
+
+.signIn a {
+    padding: .7rem;
+    display: inline-block;
+    color: #6F7C85;
+    border: .2rem solid #6F7C85;
+    border-radius: .5rem;
+
+}
+
+.signIn a:hover {
+    color: #ffffff;
+    background-color: #6F7C85;
+}
+
+/* header */
+header {
+    background-color: rgb(61, 57, 57);
+    margin-bottom: 5rem;
+}
+
+header .header-content {
+    width: 50%;
+    padding: 8rem 0;
+    margin-left: 5%;
+}
+
+header .header-content h1 {
+    font-size: 4rem;
+    color: #ffffff;
+
+}
+
+header .header-content p {
+    padding: 2rem 0 6rem 0;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+
+header .header-content a {
+    color: #ffffff;
+    background-color: #9DBAB8;
+    padding: 1rem;
+    border-radius: 30px;
+    font-size: 1.2rem;
+}
+
+/* article */
+
+article {
+    width: 70%;
+    margin: 0 auto;
+    padding: 3rem;
+    box-shadow: 1px 1px 10px #9DBAB8, -1px -1px 10px #9DBAB8;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+article p {
+    color: #6F7C85;
+}
+
+article h2 {
+    padding: 2rem 0;
+    font-size: 2.5rem;
+    color: teal;
+}
+
+article span {
+    background-color: teal;
+    color: white;
+    font-size: 3rem;
+}
+
+/* ------------------------- login page style ------------------------- */
+
+.container__wrapper-logo {
+    padding: 0 4rem;
+}
+
+.container__wrapper-logo h2 {
+    color: #6F7C85;
+    margin-bottom: 1rem;
+}
+
+.container__wrapper {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.container__wrapper h2 {
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    color: gray;
+}
+
+form>span {
+    color: red;
+    font-size: .8rem;
+}
+
+form button {
+    margin-bottom: 4rem;
+    background-color: #9DBAB8;
+    color: white;
+    font-size: 1.5rem;
+}
+
+form section p {
+    padding-left: 10px;
+}
+
+form section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+}
+
+form input,
+button {
+    padding: 1rem 2rem 1rem 1rem;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+/* ------------------------- edit page style ------------------------- */
+
+.areas__container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+}
+
+.areas {
+    padding: 6rem 0;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.areas p {
+    padding-bottom: 2rem;
+}
+
+.areas button {
+    width: 100%;
+}
+
+.areas button {
+    background-color: #9DBAB8;
+    color: white;
+    font-size: 2rem;
+}
+
+
+/* ------------------------- table style ------------------------- */
+table {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    box-shadow: 1px 1px 10px #9DBAB8, -1px -1px 10px #9DBAB8;
+    padding: 1rem;
+}
+
+table section {
+    display: flex;
+}
+
+table button {
+    width: 100%;
+}
+
+table p {
+    font-size: 3rem;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+    background-color: #9DBAB8;
+    color: white;
+}
+
+th {
+    font-size: 2rem;
+}
+
+td {
+    font-size: 1.2rem;
+}
+
+td,
+th {
+    padding: 1rem;
+}
